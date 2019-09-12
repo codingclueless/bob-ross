@@ -1,5 +1,5 @@
 import React from 'react';
-import Game from '../containers/Game/GamePage';
+// import Game from '../containers/Game/GamePage';
 // import styles from './app.css';
 
 import 'normalize.css';
