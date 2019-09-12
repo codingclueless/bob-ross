@@ -3,12 +3,13 @@ export default function sketch(p){
   let props = {};
 
   p.setup = () => {
-    if(props.canvasHeight && props.canvasWidth) {
-      canvas = p.createCanvas(props.canvasWidth, props.canvasHeight);
-    } else {
-      canvas = p.createCanvas(300, 400);
-    }
-    p.strokeWeight(2);
+    // if(props.canvasHeight && props.canvasWidth) {
+    //   canvas = p.createCanvas(props.canvasWidth, props.canvasHeight);
+    // } else {
+    //   canvas = p.createCanvas(300, 400);
+    // }
+    canvas = p.createCanvas(300, 400);
+    p.strokeWeight(5);
   };
 
   p.mouseDragged = () => {
